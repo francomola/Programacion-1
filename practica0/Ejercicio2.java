@@ -1,6 +1,6 @@
 package practica0;
 import java.util.Scanner;
-/*/*Ejercicio 2
+/*Ejercicio 2
 Escribir un programa que te pregunte tu nombre y a continuacion imprima un saludo del estilo
 “Hola nombre”.*/
 public class Ejercicio2 {
