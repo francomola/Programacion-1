@@ -8,7 +8,7 @@ public class Ejercicio9 {
         Scanner scan = new Scanner(System.in);
         System.out.print ("Ingrese un día: ");
         int día = scan.nextInt();
-        System.out.print ("ingrese un mes: ");
+        System.out.print ("Ingrese un mes: ");
         int mes = scan.nextInt();
         System.out.print ("Ingrese un año: ");
         int año = scan.nextInt();
