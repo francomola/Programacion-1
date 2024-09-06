@@ -19,11 +19,10 @@ public class Ejercicio_20 {
     }
     static boolean esCapicua (String s) {
         s = s.toLowerCase();
-        for (int i = 0; i < s.length() - 1; i++) {
-            if (s.charAt(i) == s.charAt(0)) {
-                return false;
-            }
+        String p = "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            p += s.charAt(i);
         }
-        return true;
+        return s.equals(p);
     }
 }
